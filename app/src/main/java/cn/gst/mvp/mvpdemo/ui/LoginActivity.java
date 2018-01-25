@@ -37,6 +37,7 @@ import stfalcon.universalpickerdialog.UniversalPickerDialog;
 
 
 /**
+ * 首页面
  * Created by Administrator on 4/1 0001.
  */
 
@@ -244,7 +245,9 @@ public class LoginActivity extends AppCompatActivity implements ILoginView , Uni
     }
 
     private void download() {
-        new File("/data/data/" + getPackageName() + "/handouts").mkdir();
+        new File(
+
+                "/data/data/" + getPackageName() + "/handouts").mkdir();
         File destinationFile = new File("/data/data/" + getPackageName() + "/handouts/" + "note01.ppt");
         String filepath = destinationFile.toString();
         String[] downurl = new String[]{"http://shuoke360.cn/Public/Uploads/Note/20170925/59c8840e7c231.ppt"};
