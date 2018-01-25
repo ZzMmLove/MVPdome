@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="dropdown_array_default">
+        <item>选项1</item>
+        <item>选项2</item>
+        <item>选项3</item>
+        <item>选项4</item>
+        <item>选项5</item>
+        <item>选项6</item>
+        <item>选项7</item>
+        <item>选项8</item>
+        <item>选项9</item>
+        <item>选项10</item>
+        <item>选项11</item>
+        <item>选项12</item>
+    </string-array>
+    <string-array name="dropdown_array_default_with_key">
+        <item>op1_选项1</item>
+        <item>op2_选项2</item>
+        <item>op3_选项3</item>
+        <item>op3_选项4</item>
+        <item>op3_选项5</item>
+        <item>op3_选项6</item>
+        <item>op3_选项7</item>
+        <item>op3_选项8</item>
+        <item>op3_选项9</item>
+        <item>op3_选项10</item>
+        <item>op3_选项11</item>
+        <item>op3_选项12</item>
+        <item>op3_选项12</item>
+        <item>op3_选项12</item>
+    </string-array>
+</resources>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <cn.gst.mvp.mvpdemo.view.AnimationBottom
+        android:id="@+id/animation"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        app:textColor="@color/colorAccent"
+        app:backgruond="#b289e7"
+        app:textSize="16sp"
+        app:selectTextColor="#09abf1">
+
+    </cn.gst.mvp.mvpdemo.view.AnimationBottom>
+
+</LinearLayout>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <com.louisgeek.dropdownviewlib.DropDownView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:itemArray="@array/dropdown_array_default_with_key"
+        android:id="@+id/id_ddv"
+        android:padding="10dp"
+        />
+
+    <com.louisgeek.dropdownviewlib.DateSelectView
+        android:layout_marginTop="10dp"
+        android:id="@+id/id_dsv"
+        android:padding="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <com.louisgeek.dropdownviewlib.ProvinceCityAreaSelectView
+        android:layout_marginTop="10dp"
+        android:id="@+id/id_pcasv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <com.louisgeek.dropdownviewlib.ProCateSelectView
+        android:layout_marginTop="10dp"
+        android:id="@+id/id_pcsv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <com.louisgeek.dropdownviewlib.ClassfiySeletView
+        android:layout_marginTop="10dp"
+        android:id="@+id/id_csv"
+        android:padding="13dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <com.louisgeek.dropdownviewlib.MultiSelectView
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:id="@+id/id_msv"
+        android:text="多选"
+        android:layout_height="wrap_content"/>
+    <com.louisgeek.dropdownviewlib.MultiSelectView_HasChild
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:id="@+id/id_msv_gac"
+        android:text="多选"
+        android:layout_height="wrap_content"/>
+
+        <Button
+         android:id="@+id/sliding"
+         android:layout_below="@id/id_msv_gac"
+         android:layout_width="wrap_content"
+            android:text="筛选"
+         android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/id_btn"
+        android:layout_width="wrap_content"
+        android:text="get value"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>
